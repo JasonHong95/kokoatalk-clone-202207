@@ -4,6 +4,7 @@
    margin-top: 25px;
    padding: var(--horizontal-space); /*공용변수사용*/
    align-items: center;
+   margin-bottom: 15px;
 }
 .screen-header__title {
    font-size: 30px;
