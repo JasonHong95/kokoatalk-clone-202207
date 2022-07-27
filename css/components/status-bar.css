@@ -4,6 +4,7 @@
    width: 100%;
    display: flex;
    justify-content: center;
+   box-sizing: border-box; /* CSS 박스 사이즈 자동으로 변하지 않고 기존 크기 유지 */
    padding: 5px 3px;
 }
 .status-bar__column {

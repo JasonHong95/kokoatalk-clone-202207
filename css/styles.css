@@ -6,6 +6,8 @@
 @import "screens/login.css";
 /* Login page */
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+
 body {
    font-family: "Open Sans", sans-serif;
    height: 500vh;
