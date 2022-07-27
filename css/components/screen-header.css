@@ -2,7 +2,7 @@
    display: flex;
    justify-content: space-between;
    margin-top: 25px;
-   padding: 25px;
+   padding: var(--horizontal-space); /*공용변수사용*/
    align-items: center;
 }
 .screen-header__title {
