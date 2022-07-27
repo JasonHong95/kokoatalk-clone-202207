@@ -43,3 +43,7 @@
    display: block;
    margin-bottom: 10px;
 }
+.user-component__subtitle i {
+   margin-left: 5px;
+   color: tomato;
+}
