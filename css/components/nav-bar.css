@@ -21,11 +21,13 @@
    bottom: 15px;
 }
 .nav__new {
-   background-color: tomato;
-   width: 5px;
-   height: 5px;
-   border-radius: 2.5px;
    display: flex;
    position: absolute;
    left: 25px;
+}
+.nav__new2 {
+   display: flex;
+   position: absolute;
+   right: -5px;
+   top: -10px;
 }
