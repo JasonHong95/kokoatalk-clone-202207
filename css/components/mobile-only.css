@@ -1,0 +1,42 @@
+@keyframes warningMessage {
+   0% {
+      color: white;
+      transform: none;
+   }
+   25% {
+      color: tomato;
+   }
+   50% {
+      color: blue;
+      transform: scale(1.5);
+   }
+   75% {
+      color: tomato;
+   }
+   100% {
+      color: white;
+      transform: none;
+   }
+}
+#mobile-only {
+   position: absolute;
+   z-index: 99;
+   height: 100vh;
+   width: 100vw;
+   background-color: var(--yellow);
+   display: flex;
+   top: 0;
+   justify-content: center;
+   align-items: center;
+   font-size: 32px;
+   font-weight: 600;
+   color: tomato;
+}
+#mobile-only span {
+   animation: warningMessage 1s linear infinite;
+}
+@media screen and (max-width: 500px) {
+   #mobile-only {
+      display: none;
+   }
+}
